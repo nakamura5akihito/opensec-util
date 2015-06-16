@@ -13,9 +13,8 @@ the above functions are the intrinsic value of Castor.
 Opensec UTIL simplifies APIs for these functions and 
 appends a supplementary framework of data search in the object-oriented manner.
 
-Since version 3.5.0 of the former project [SIX UTIL], 
+Since version 3.5.0 of the former project [SIX UTIL](https://github.com/nakamura5akihito/six-util), 
 Object-NoSQL mapping utility classes are provided. 
 [Morphia](https://github.com/mongodb/morphia) is used for the Object-MongoDB mapping.
-
 
 

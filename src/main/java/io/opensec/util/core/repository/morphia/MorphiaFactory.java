@@ -62,15 +62,6 @@ public class MorphiaFactory
 			)
 	{
 	    _morphia = create( classesToMap, converters );
-//        _morphia = (classesToMap == null
-//                	? (new Morphia()) : (new Morphia( classesToMap )));
-//
-//        if (converters != null  &&  converters.size() > 0) {
-//        	Converters  defaultConverters = _morphia.getMapper().getConverters();
-//        	for (Class<? extends TypeConverter>  converter : converters) {
-//        		defaultConverters.addConverter( converter );
-//        	}
-//        }
 	}
 
 
@@ -137,7 +128,7 @@ public class MorphiaFactory
                             dbname, username, password.toCharArray() );
             client = new MongoClient( _getServerAddress(), Arrays.asList( credential ) );
         } else {
-            client = new MongoClient();
+            client = new MongoClient( _getServerAddress() );
         }
 
         return _morphia.createDatastore( client, dbname );

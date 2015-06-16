@@ -26,7 +26,6 @@ import java.util.List;
  * The SearchCriteria represents criteria of objects in search queries.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: SearchCriteria.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public class SearchCriteria
     implements Serializable

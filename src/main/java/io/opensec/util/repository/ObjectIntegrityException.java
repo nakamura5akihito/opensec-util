@@ -23,7 +23,6 @@ package io.opensec.util.repository;
  * some property of the object prevents it from being saved in the repository.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: ObjectIntegrityException.java 567 2013-04-15 08:49:40Z nakamura5akihito@gmail.com $
  */
 public class ObjectIntegrityException
     extends RepositoryException

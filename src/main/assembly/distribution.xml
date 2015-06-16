@@ -3,10 +3,9 @@
     xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 http://maven.apache.org/xsd/assembly-1.1.2.xsd">
 
 <!--
-Project SIX: UTIL - Maven Assembly Description
+Opensec: UTIL - Maven Assembly Description
 
 @author     Akihito Nakamura, AIST
-@version    $Id: distribution.xml 593 2013-04-24 03:31:18Z nakamura5akihito@gmail.com $
 -->
 
     <id>distribution</id>

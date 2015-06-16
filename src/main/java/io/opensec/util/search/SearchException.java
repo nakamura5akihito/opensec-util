@@ -26,7 +26,6 @@ import io.opensec.util.NestedRuntimeException;
  * against the data store.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: SearchException.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public class SearchException
     extends NestedRuntimeException

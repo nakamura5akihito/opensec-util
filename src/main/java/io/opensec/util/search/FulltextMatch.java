@@ -32,7 +32,6 @@ import java.util.List;
  * depend on the application.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: FulltextMatch.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  * @deprecated  This constraint is replaced by TextMatchBinding.
  */
 @Deprecated

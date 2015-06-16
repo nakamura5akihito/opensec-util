@@ -28,7 +28,6 @@ import org.springframework.web.client.ResponseExtractor;
 /**
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: StringResponseExtractor.java 527 2013-03-08 06:41:36Z nakamura5akihito@gmail.com $
  */
 public class StringResponseExtractor
     implements ResponseExtractor<String>
@@ -47,6 +46,7 @@ public class StringResponseExtractor
     //  ResponseExtractor<T>
     //**************************************************************
 
+    @Override
     public String extractData(
                     final ClientHttpResponse response
                     )

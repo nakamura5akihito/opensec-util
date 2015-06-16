@@ -33,7 +33,6 @@ import org.springframework.dao.DataAccessException;
  * This class extends the CastorTemplate by adding count function.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: ExtendedCastorTemplate.java 540 2013-03-08 08:09:29Z nakamura5akihito@gmail.com $
  */
 public class ExtendedCastorTemplate
 extends CastorTemplate

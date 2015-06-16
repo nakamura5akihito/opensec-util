@@ -22,7 +22,6 @@ import io.opensec.util.persist.AssociationEntry;
 
 /**
  * @author  Akihito Nakamura, AIST
- * @version $Id: AssociationEntryHelper.java 540 2013-03-08 08:09:29Z nakamura5akihito@gmail.com $
  */
 public class AssociationEntryHelper<T extends AssociationEntry<?,?,?>>
     extends PersistenceHelper<T>

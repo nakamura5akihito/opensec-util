@@ -24,7 +24,6 @@ import java.util.Set;
  * Application Context.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: Context.java 521 2013-03-08 06:16:35Z nakamura5akihito@gmail.com $
  */
 public interface Context
 {

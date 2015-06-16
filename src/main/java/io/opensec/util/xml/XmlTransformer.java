@@ -40,7 +40,6 @@ import org.slf4j.LoggerFactory;
  * An XML transform processor.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: XmlTransformer.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public class XmlTransformer
 {

@@ -27,7 +27,6 @@ import org.springframework.web.client.ResponseExtractor;
 /**
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: FileResponseExtractor.java 527 2013-03-08 06:41:36Z nakamura5akihito@gmail.com $
  */
 public class FileResponseExtractor
     implements ResponseExtractor<File>
@@ -61,6 +60,7 @@ public class FileResponseExtractor
     //  ResponseExtractor<T>
     //**************************************************************
 
+    @Override
     public File extractData(
                     final ClientHttpResponse response
                     )

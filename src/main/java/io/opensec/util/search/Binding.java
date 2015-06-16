@@ -25,7 +25,6 @@ import java.io.Serializable;
  * This interface is a marker for every type of restriction.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: Binding.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public interface Binding
     extends Serializable

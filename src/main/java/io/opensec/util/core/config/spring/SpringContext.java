@@ -36,7 +36,6 @@ import org.springframework.core.io.Resource;
  * Application Context using Spring Framework.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: SpringContext.java 600 2013-06-17 10:19:02Z nakamura5akihito@gmail.com $
  */
 public class SpringContext
     implements Context

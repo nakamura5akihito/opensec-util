@@ -23,7 +23,6 @@ import io.opensec.util.repository.QueryParams;
 /**
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: UrlUtil.java 563 2013-04-12 10:38:15Z nakamura5akihito@gmail.com $
  */
 public class UrlUtil
 {

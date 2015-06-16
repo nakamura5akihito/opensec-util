@@ -24,7 +24,6 @@ package io.opensec.util.persist;
  * or inability to perform the query against the data store.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: DataRetrievalException.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public class DataRetrievalException
     extends PersistenceException

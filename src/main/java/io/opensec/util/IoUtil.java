@@ -40,7 +40,6 @@ import org.slf4j.LoggerFactory;
  * Basic I/O functions.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: IoUtil.java 525 2013-03-08 06:32:23Z nakamura5akihito@gmail.com $
  */
 public class IoUtil
 {

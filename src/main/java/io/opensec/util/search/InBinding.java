@@ -27,7 +27,6 @@ import java.util.Iterator;
  * to match a value in a list.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: InBinding.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public class InBinding
     extends PropertyBinding

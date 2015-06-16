@@ -25,7 +25,6 @@ import org.exolab.castor.mapping.GeneralizedFieldHandler;
  * A Castor FieldHandler for the Relation type.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: RelationHandler.java 540 2013-03-08 08:09:29Z nakamura5akihito@gmail.com $
  */
 public class RelationHandler
     extends GeneralizedFieldHandler

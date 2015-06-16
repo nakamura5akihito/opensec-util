@@ -22,7 +22,6 @@ package io.opensec.util.search;
  * A PropertyBinding represents a restriction on a property of object.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: PropertyBinding.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public abstract class PropertyBinding
     implements Binding

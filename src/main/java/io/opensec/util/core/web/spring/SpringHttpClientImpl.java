@@ -47,7 +47,6 @@ import org.springframework.web.client.RestTemplate;
  * An HTTP method execution utility class.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: SpringHttpClientImpl.java 562 2013-04-12 10:22:39Z nakamura5akihito@gmail.com $
  */
 public class SpringHttpClientImpl
     implements HttpClient

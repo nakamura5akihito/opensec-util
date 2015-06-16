@@ -21,7 +21,6 @@ package io.opensec.util.core.repository.morphia;
 
 /**
  * @author  Akihito Nakamura, AIST
- * @version $Id: QueryBuilderFactory.java 523 2013-03-08 06:26:46Z nakamura5akihito@gmail.com $
  */
 public interface QueryBuilderFactory
 {

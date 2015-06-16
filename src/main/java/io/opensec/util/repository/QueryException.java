@@ -23,7 +23,6 @@ package io.opensec.util.repository;
  * there is an error in the query parameters.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: QueryException.java 567 2013-04-15 08:49:40Z nakamura5akihito@gmail.com $
  */
 public class QueryException
     extends RepositoryException

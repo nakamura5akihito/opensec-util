@@ -28,7 +28,6 @@ import java.util.List;
  * Query results.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: QueryResults.java 546 2013-03-11 10:21:01Z nakamura5akihito@gmail.com $
  */
 public class QueryResults<T>
     implements Serializable

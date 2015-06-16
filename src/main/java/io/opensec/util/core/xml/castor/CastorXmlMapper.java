@@ -41,7 +41,6 @@ import org.springframework.oxm.castor.CastorMarshaller;
 
 /**
  * @author  Akihito Nakamura, AIST
- * @version $Id: CastorXmlMapper.java 527 2013-03-08 06:41:36Z nakamura5akihito@gmail.com $
  */
 public class CastorXmlMapper
     implements XmlMapper

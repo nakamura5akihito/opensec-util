@@ -23,7 +23,6 @@ package io.opensec.util.repository;
  * a type of object, in the data store operation, is inappropriate, unknown, or unavailable.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: ObjectTypeException.java 573 2013-04-16 05:48:06Z nakamura5akihito@gmail.com $
  */
 public class ObjectTypeException
     extends RepositoryException

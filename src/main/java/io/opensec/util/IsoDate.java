@@ -22,12 +22,10 @@ import java.util.Date;
 
 
 
-
 /**
  * An utility class for ISO date/time format.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: IsoDate.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public class IsoDate
 {

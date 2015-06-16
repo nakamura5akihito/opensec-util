@@ -23,7 +23,6 @@ package io.opensec.util.repository;
  * an object could not be retrieved via its identifier.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: ObjectNotFoundException.java 573 2013-04-16 05:48:06Z nakamura5akihito@gmail.com $
  */
 public class ObjectNotFoundException
     extends RepositoryException

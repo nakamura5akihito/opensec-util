@@ -22,7 +22,6 @@ package io.opensec.util.search;
  * A binding that negates a binding.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: NotBinding.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public class NotBinding
     implements Binding

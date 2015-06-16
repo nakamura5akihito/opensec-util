@@ -33,7 +33,6 @@ import java.util.List;
  * but the usage of this property is not limited.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: SearchResult.java 492 2013-03-06 07:57:10Z nakamura5akihito@gmail.com $
  */
 public class SearchResult<T>
     implements Serializable, Iterable<T>
@@ -274,6 +273,7 @@ public class SearchResult<T>
     //  Iterable
     //**************************************************************
 
+    @Override
     public Iterator<T> iterator()
     {
         return _elements.iterator();

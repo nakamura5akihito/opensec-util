@@ -39,7 +39,6 @@ import org.springframework.dao.DataAccessException;
 
 /**
  * @author  Akihito Nakamura, AIST
- * @version $Id: CastorDao.java 540 2013-03-08 08:09:29Z nakamura5akihito@gmail.com $
  */
 public class CastorDao<K, T extends Persistable<K>>
     extends ExtendedCastorDaoSupport    //extends CastorDaoSupport

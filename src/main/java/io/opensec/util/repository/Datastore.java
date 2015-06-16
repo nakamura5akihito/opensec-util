@@ -25,7 +25,6 @@ import java.util.List;
  * A prescription for the low-level persistent data store.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: Datastore.java 567 2013-04-15 08:49:40Z nakamura5akihito@gmail.com $
  */
 public interface Datastore
 {

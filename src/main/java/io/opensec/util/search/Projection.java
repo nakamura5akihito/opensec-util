@@ -25,7 +25,6 @@ import java.io.Serializable;
  * This interface is a marker for every type of projection.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: Projection.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public interface Projection
     extends Serializable

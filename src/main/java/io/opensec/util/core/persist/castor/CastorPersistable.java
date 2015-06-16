@@ -25,7 +25,6 @@ import org.exolab.castor.jdo.TimeStampable;
  * A persistent entity for Castor DAO.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: CastorPersistable.java 540 2013-03-08 08:09:29Z nakamura5akihito@gmail.com $
  */
 public abstract class CastorPersistable<K>
     extends AbstractPersistable<K>

@@ -25,7 +25,6 @@ package io.opensec.util.search;
  * The relation types are defined in the {@link Relation}.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: RelationalBinding.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  * @see Relation
  */
 public class RelationalBinding

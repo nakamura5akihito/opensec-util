@@ -25,7 +25,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * @author  Akihito Nakamura, AIST
- * @version $Id: SearchXmlMapper.java 540 2013-03-08 08:09:29Z nakamura5akihito@gmail.com $
  */
 public class SearchXmlMapper
     extends CastorXmlMapper
@@ -35,7 +34,7 @@ public class SearchXmlMapper
      * The Spring application context specification.
      */
     private static final String _SPRING_APP_CONTEXT_
-        = "/jp/go/aist/six/util/castor/six-util_spring-app-context.xml";
+        = "/io/opensec/util/castor/opensec-util_spring-app-context.xml";
 
 
     /**
@@ -47,6 +46,7 @@ public class SearchXmlMapper
         SearchXmlMapper  xmlMapper = null;
 
         try {
+            @SuppressWarnings( "resource" )
             ApplicationContext  appContext =
                 new ClassPathXmlApplicationContext( _SPRING_APP_CONTEXT_ );
                 //throws BeansException

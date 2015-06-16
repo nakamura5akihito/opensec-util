@@ -27,12 +27,10 @@ import org.slf4j.LoggerFactory;
 
 
 
-
 /**
  * A platform command.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: Command.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public class Command
 {

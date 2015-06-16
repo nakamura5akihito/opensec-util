@@ -30,7 +30,6 @@ package io.opensec.util.search;
  * </p>
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: LikeBinding.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public class LikeBinding
     extends PropertyBinding

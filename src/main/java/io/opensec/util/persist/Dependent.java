@@ -23,7 +23,6 @@ package io.opensec.util.persist;
  * The lifetime of a dependent object depends on the master object.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: Dependent.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public interface Dependent<T>
 {

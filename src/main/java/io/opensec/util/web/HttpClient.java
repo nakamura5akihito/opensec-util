@@ -23,11 +23,9 @@ import java.io.Writer;
 
 
 
-
 /**
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: HttpClient.java 554 2013-04-12 09:00:30Z nakamura5akihito@gmail.com $
  */
 public interface HttpClient
 {

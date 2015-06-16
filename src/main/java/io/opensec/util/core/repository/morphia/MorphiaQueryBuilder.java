@@ -37,7 +37,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * @author  Akihito Nakamura, AIST
- * @version $Id: MorphiaQueryBuilder.java 612 2013-06-28 08:26:58Z nakamura5akihito@gmail.com $
  */
 public abstract class MorphiaQueryBuilder
 implements QueryBuilder

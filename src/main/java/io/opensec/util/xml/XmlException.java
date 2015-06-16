@@ -20,12 +20,10 @@ import io.opensec.util.NestedRuntimeException;
 
 
 
-
 /**
  * An exceptional condition that occurred during the XML processing.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: XmlException.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public class XmlException
     extends NestedRuntimeException

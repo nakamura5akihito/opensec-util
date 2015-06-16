@@ -20,7 +20,6 @@ package io.opensec.util.repository;
 
 /**
  * @author  Akihito Nakamura, AIST
- * @version $Id: View.java 500 2013-03-07 09:23:00Z nakamura5akihito@gmail.com $
  */
 public enum View
 {

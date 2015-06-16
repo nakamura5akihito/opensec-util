@@ -23,7 +23,6 @@ package io.opensec.util.repository;
  * there is an erroneous configuration with the repository.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: RepositoryConfigurationException.java 567 2013-04-15 08:49:40Z nakamura5akihito@gmail.com $
  */
 public class RepositoryConfigurationException
     extends RepositoryException

@@ -23,7 +23,6 @@ package io.opensec.util.persist;
  * to be created already exists in the data store.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: DuplicateObjectException.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public class DuplicateObjectException
     extends PersistenceException

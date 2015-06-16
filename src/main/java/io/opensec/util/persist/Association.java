@@ -22,7 +22,6 @@ package io.opensec.util.persist;
  * An association between two types of Persistent objects.
  *
  * @author	Akihito Nakamura, AIST
- * @version $Id: Association.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public class Association<K, L, A extends Persistable<L>, M, D extends Persistable<M>>
     extends AssociationEntry<K, L, M>

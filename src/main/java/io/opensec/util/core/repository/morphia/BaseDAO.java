@@ -27,7 +27,6 @@ import com.mongodb.MongoClient;
 
 /**
  * @author  Akihito Nakamura, AIST
- * @version $Id: BaseDAO.java 567 2013-04-15 08:49:40Z nakamura5akihito@gmail.com $
  */
 public abstract class BaseDAO<T, K>
     extends BasicDAO<T, K>

@@ -28,7 +28,6 @@ import org.springframework.web.client.ResponseExtractor;
 /**
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: WriterResponseExtractor.java 527 2013-03-08 06:41:36Z nakamura5akihito@gmail.com $
  */
 public class WriterResponseExtractor
     implements ResponseExtractor<Writer>
@@ -62,6 +61,7 @@ public class WriterResponseExtractor
     //  ResponseExtractor<T>
     //**************************************************************
 
+    @Override
     public Writer extractData(
                     final ClientHttpResponse response
                     )

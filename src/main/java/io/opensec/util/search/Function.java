@@ -22,7 +22,6 @@ package io.opensec.util.search;
  * The Function represents a type of function used in search queries.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: Function.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public enum Function
 {

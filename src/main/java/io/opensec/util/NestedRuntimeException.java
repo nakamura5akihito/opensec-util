@@ -24,7 +24,6 @@ package io.opensec.util;
  * This is a subset of Spring Framework's NestedRuntimeException.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: NestedRuntimeException.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  * @see <a href="http://www.springframework.org">Spring Framework</a>
  */
 public class NestedRuntimeException

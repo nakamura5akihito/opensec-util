@@ -22,7 +22,6 @@ package io.opensec.util.search;
  * A projection by a property.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: PropertyProjection.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public class PropertyProjection
     implements Projection

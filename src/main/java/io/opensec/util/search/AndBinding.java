@@ -24,7 +24,6 @@ import java.util.List;
  * A logical binding that connects element bindings by the "AND" operator.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: AndBinding.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public class AndBinding
     extends LogicalBinding

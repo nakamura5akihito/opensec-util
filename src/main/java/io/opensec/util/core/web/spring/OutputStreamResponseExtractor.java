@@ -27,7 +27,6 @@ import org.springframework.web.client.ResponseExtractor;
 /**
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: OutputStreamResponseExtractor.java 527 2013-03-08 06:41:36Z nakamura5akihito@gmail.com $
  */
 public class OutputStreamResponseExtractor
     implements ResponseExtractor<OutputStream>
@@ -61,6 +60,7 @@ public class OutputStreamResponseExtractor
     //  ResponseExtractor<T>
     //**************************************************************
 
+    @Override
     public OutputStream extractData(
                     final ClientHttpResponse response
                     )

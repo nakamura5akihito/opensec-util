@@ -41,7 +41,6 @@ import org.springframework.transaction.support.TransactionTemplate;
  * A data store implementation.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: CastorDatastore.java 540 2013-03-08 08:09:29Z nakamura5akihito@gmail.com $
  */
 public class CastorDatastore
     implements Datastore //, DaoRegistry

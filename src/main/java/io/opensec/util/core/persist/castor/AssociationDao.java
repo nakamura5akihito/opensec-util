@@ -22,7 +22,6 @@ import io.opensec.util.persist.Association;
 
 /**
  * @author  Akihito Nakamura, AIST
- * @version $Id: AssociationDao.java 540 2013-03-08 08:09:29Z nakamura5akihito@gmail.com $
  */
 public class AssociationDao<K, T extends Association<K,?,?,?,?>>
     extends CastorDao<K, T>

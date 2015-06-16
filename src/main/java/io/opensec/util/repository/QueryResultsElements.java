@@ -29,8 +29,6 @@ import java.util.List;
  * A element container.
  *
  * @author	Akihito Nakamura, AIST
- * @version $Id: QueryResultsElements.java 500 2013-03-07 09:23:00Z nakamura5akihito@gmail.com $
- * @see <a href="http://oval.mitre.org/language/">OVAL Language</a>
  */
 public class QueryResultsElements<T>
     implements Iterable<T>, Serializable

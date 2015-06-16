@@ -25,7 +25,6 @@ import io.opensec.util.NestedRuntimeException;
  * An exceptional condition that occurred during the repository operation.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: RepositoryException.java 517 2013-03-08 04:10:49Z nakamura5akihito@gmail.com $
  */
 public class RepositoryException
     extends NestedRuntimeException

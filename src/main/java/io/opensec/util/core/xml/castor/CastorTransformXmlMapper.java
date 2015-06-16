@@ -35,7 +35,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * @author  Akihito Nakamura, AIST
- * @version $Id: CastorTransformXmlMapper.java 527 2013-03-08 06:41:36Z nakamura5akihito@gmail.com $
  */
 public class CastorTransformXmlMapper
     extends CastorXmlMapper

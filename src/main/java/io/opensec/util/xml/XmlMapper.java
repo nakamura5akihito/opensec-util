@@ -29,7 +29,6 @@ import javax.xml.transform.Source;
  * A prescription of the interface of the XML-Object mapping service.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: XmlMapper.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public interface XmlMapper
 {

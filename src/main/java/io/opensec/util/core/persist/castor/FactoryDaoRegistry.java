@@ -29,7 +29,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * @author  Akihito Nakamura, AIST
- * @version $Id: FactoryDaoRegistry.java 540 2013-03-08 08:09:29Z nakamura5akihito@gmail.com $
  */
 public class FactoryDaoRegistry
     implements DaoRegistry

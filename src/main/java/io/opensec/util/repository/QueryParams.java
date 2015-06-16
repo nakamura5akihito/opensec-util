@@ -27,7 +27,6 @@ import java.util.Set;
  * A set of query parameters to be interpreted as a filter for collections of objects.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: QueryParams.java 500 2013-03-07 09:23:00Z nakamura5akihito@gmail.com $
  */
 public class QueryParams
     implements Cloneable, Serializable

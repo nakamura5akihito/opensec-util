@@ -32,7 +32,6 @@ import com.mongodb.ServerAddress;
  * A factory for Morphia main object.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: MorphiaFactory.java 523 2013-03-08 06:26:46Z nakamura5akihito@gmail.com $
  */
 public class MorphiaFactory
 {

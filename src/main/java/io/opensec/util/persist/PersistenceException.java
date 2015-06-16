@@ -24,7 +24,6 @@ import io.opensec.util.NestedRuntimeException;
  * An exceptional condition that occurred during the object-persistence process.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: PersistenceException.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public class PersistenceException
     extends NestedRuntimeException

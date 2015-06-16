@@ -22,7 +22,6 @@ package io.opensec.util.persist;
  * A base class for persistable objects.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: AbstractPersistable.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public abstract class AbstractPersistable<K>
     implements Persistable<K>

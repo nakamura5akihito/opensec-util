@@ -18,12 +18,10 @@ package io.opensec.util.repository;
 
 
 
-
 /**
  * A set of common query parameters.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: CommonQueryParams.java 500 2013-03-07 09:23:00Z nakamura5akihito@gmail.com $
  */
 public class CommonQueryParams
     extends QueryParams

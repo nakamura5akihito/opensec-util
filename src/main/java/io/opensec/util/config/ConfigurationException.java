@@ -20,12 +20,10 @@ import io.opensec.util.NestedRuntimeException;
 
 
 
-
 /**
  * Thrown when there is an application configuration problem.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: ConfigurationException.java 521 2013-03-08 06:16:35Z nakamura5akihito@gmail.com $
  */
 public class ConfigurationException
     extends NestedRuntimeException

@@ -42,7 +42,6 @@ import org.slf4j.LoggerFactory;
  * A MongoDB/Morphia implementation of the Datastore.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: MorphiaMongoDatastore.java 578 2013-04-16 06:33:01Z nakamura5akihito@gmail.com $
  */
 public abstract class MorphiaMongoDatastore
     implements Datastore, DAORegistry

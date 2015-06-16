@@ -44,7 +44,6 @@ import java.util.List;
  * </p>
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: Dao.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public interface Dao<K, T extends Persistable<K>>
 {

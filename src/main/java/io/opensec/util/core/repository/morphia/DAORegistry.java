@@ -26,7 +26,6 @@ import org.mongodb.morphia.dao.DAO;
  * A DAO registry.
  *
  * @author	Akihito Nakamura, AIST
- * @version $Id: DAORegistry.java 568 2013-04-15 09:15:44Z nakamura5akihito@gmail.com $
  */
 public interface DAORegistry
 {

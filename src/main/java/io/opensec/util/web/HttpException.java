@@ -24,7 +24,6 @@ import io.opensec.util.NestedRuntimeException;
  * An exceptional condition that occurred during HTTP communication.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: HttpException.java 553 2013-04-12 08:45:25Z nakamura5akihito@gmail.com $
  */
 public class HttpException
     extends NestedRuntimeException

@@ -29,7 +29,6 @@ import java.util.List;
  * The logical operator is "AND" or "OR".
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: LogicalBinding.java 492 2013-03-06 07:57:10Z nakamura5akihito@gmail.com $
  */
 public abstract class LogicalBinding
     implements Binding, Iterable<Binding>
@@ -265,6 +264,7 @@ public abstract class LogicalBinding
     //  Iterable
     //**************************************************************
 
+    @Override
     public Iterator<Binding> iterator()
     {
         return _elements.iterator();

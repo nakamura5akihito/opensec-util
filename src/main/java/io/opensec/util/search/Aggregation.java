@@ -22,7 +22,6 @@ package io.opensec.util.search;
  * An aggregation of sets of objects.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: Aggregation.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  * @see Function
  */
 public class Aggregation

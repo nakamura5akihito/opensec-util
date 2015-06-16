@@ -29,7 +29,6 @@ import java.util.List;
  * A data store facade that supports multiple types of objects.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: Datastore.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  */
 public interface Datastore
 {

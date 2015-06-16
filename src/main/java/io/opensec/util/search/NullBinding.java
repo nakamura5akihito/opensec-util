@@ -25,7 +25,6 @@ package io.opensec.util.search;
  * While in negation mode, the value is NOT NULL.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: NullBinding.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  * @see Relation
  */
 public class NullBinding

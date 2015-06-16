@@ -24,7 +24,6 @@ import org.mongodb.morphia.query.Query;
 
 /**
  * @author  Akihito Nakamura, AIST
- * @version $Id: QueryBuilder.java 567 2013-04-15 08:49:40Z nakamura5akihito@gmail.com $
  */
 public interface QueryBuilder
 {

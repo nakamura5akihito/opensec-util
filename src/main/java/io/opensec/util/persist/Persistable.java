@@ -24,7 +24,6 @@ import java.io.Serializable;
  * A marker interface of persistent objects.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: Persistable.java 473 2013-02-20 08:41:32Z nakamura5akihito@gmail.com $
  * @param   <K> the type of persistent ID.
  */
 public interface Persistable<K>

@@ -29,7 +29,6 @@ import org.springframework.web.client.RequestCallback;
 /**
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: InputStreamRequestCallback.java 527 2013-03-08 06:41:36Z nakamura5akihito@gmail.com $
  */
 public class InputStreamRequestCallback
     implements RequestCallback
@@ -68,6 +67,7 @@ public class InputStreamRequestCallback
     //  RequestCallback
     //**************************************************************
 
+    @Override
     public void doWithRequest(
                     final ClientHttpRequest request
                     )

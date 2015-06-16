@@ -24,7 +24,6 @@ import io.opensec.util.persist.Persistable;
  * A helper class for the Persistable object.
  *
  * @author  Akihito Nakamura, AIST
- * @version $Id: PersistenceHelper.java 540 2013-03-08 08:09:29Z nakamura5akihito@gmail.com $
  */
 public class PersistenceHelper<T extends Persistable<?>>
 {

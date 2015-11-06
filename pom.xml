@@ -11,12 +11,12 @@ Maven Project Object Model (POM)
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.opensec</groupId>
     <artifactId>opensec-util</artifactId>
-    <version>4.0.0</version>
+    <version>4.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Opensec UTIL</name>
     <description>Opensec UTIL is a collection of reusable Java components.</description>
-    <url>https://nakamura5akihito.github.io/</url>
+    <url>https://github.com/nakamura5akihito/</url>
     <!-- deprecated: url>https://staff.aist.go.jp/nakamura-akihito/six/util/</url -->
     <!-- deprecated: url>https://code.google.com/p/six-util/</url -->
     <inceptionYear>2015</inceptionYear>
@@ -91,7 +91,7 @@ Maven Project Object Model (POM)
         <org.codehaus.castor.spring-orm.version>2.1</org.codehaus.castor.spring-orm.version>
         <org.mongodb.morphia.version>1.0.0</org.mongodb.morphia.version>
         <org.slf4j.version>1.7.12</org.slf4j.version>
-        <org.springframework.version>4.1.6.RELEASE</org.springframework.version>
+        <org.springframework.version>4.2.2.RELEASE</org.springframework.version>
     </properties>
 
 

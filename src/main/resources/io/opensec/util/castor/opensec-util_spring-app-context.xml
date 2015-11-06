@@ -15,7 +15,10 @@
     <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
     <bean id="utilSearchMarshaller" 
-      class="org.springframework.oxm.castor.CastorMarshaller">
+       class="io.opensec.util.core.xml.spring327.CastorMarshaller">
+<!--
+       class="org.springframework.oxm.castor.CastorMarshaller">
+-->
         <property name="mappingLocations"
                  value="classpath:io/opensec/util/castor/opensec-util-search_castor-xml-mapping.xml"/>
         <property name="ignoreExtraAttributes"
@@ -27,7 +30,8 @@
     </bean> 
 
 
-    <bean id="searchXmlMapper" class="io.opensec.util.castor.SearchXmlMapper">
+    <bean id="searchXmlMapper" 
+        class="io.opensec.util.core.xml.castor.CastorXmlMapper">
         <property name="marshaller" ref="utilSearchMarshaller"/>
         <property name="unmarshaller" ref="utilSearchMarshaller"/>
     </bean>

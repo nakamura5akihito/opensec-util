@@ -16,6 +16,7 @@
  */
 package io.opensec.util.core.xml.castor;
 
+import io.opensec.util.core.xml.spring327.CastorMarshaller;
 import io.opensec.util.xml.XmlException;
 import io.opensec.util.xml.XmlMapper;
 import java.io.BufferedReader;
@@ -35,7 +36,7 @@ import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 import org.springframework.oxm.Marshaller;
 import org.springframework.oxm.Unmarshaller;
-import org.springframework.oxm.castor.CastorMarshaller;
+//import org.springframework.oxm.castor.CastorMarshaller;
 
 
 

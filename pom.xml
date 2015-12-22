@@ -73,7 +73,7 @@ Maven Project Object Model (POM)
         <org.sonatype.nexus-staging-maven-plugin.veriosn>1.6.3</org.sonatype.nexus-staging-maven-plugin.veriosn>
 
         <!-- Maven plugins -->
-        <maven-assembly-plugin.version>2.5.4</maven-assembly-plugin.version>
+        <maven-assembly-plugin.version>2.6</maven-assembly-plugin.version>
         <maven-compiler-plugin.version>3.3</maven-compiler-plugin.version>
         <maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>

@@ -56,8 +56,8 @@ import org.xml.sax.ext.LexicalHandler;
 import org.xml.sax.helpers.XMLReaderFactory;
 
 /**
- * Abstract implementation of the {@code Marshaller} and {@code Unmarshaller} interface.
- * This implementation inspects the given {@code Source} or {@code Result}, and defers
+ * Abstract implementation of the Marshaller and Unmarshaller interface.
+ * This implementation inspects the given Source or Result, and defers
  * further handling to overridable template methods.
  *
  * @author Arjen Poutsma
@@ -209,17 +209,6 @@ public abstract class AbstractMarshaller implements Marshaller, Unmarshaller {
 		marshalDomNode(graph, domResult.getNode());
 	}
 
-	/**
-	 * Template method for handling {@code StaxResult}s.
-	 * <p>This implementation delegates to {@code marshalXMLSteamWriter} or
-	 * {@code marshalXMLEventConsumer}, depending on what is contained in the
-	 * {@code StaxResult}.
-	 * @param graph    the root of the object graph to marshal
-	 * @param staxResult a Spring {@link org.springframework.util.xml.StaxSource} or JAXP 1.4 {@link StAXSource}
-	 * @throws XmlMappingException if the given object cannot be marshalled to the result
-	 * @throws IllegalArgumentException if the {@code domResult} is empty
-	 * @see #marshalDomNode(Object, org.w3c.dom.Node)
-	 */
 	protected void marshalStaxResult(Object graph, Result staxResult) throws XmlMappingException {
 		XMLStreamWriter streamWriter = StaxUtils.getXMLStreamWriter(staxResult);
 		if (streamWriter != null) {

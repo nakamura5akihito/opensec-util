@@ -11,7 +11,7 @@ Maven Project Object Model (POM)
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.opensec</groupId>
     <artifactId>opensec-util</artifactId>
-    <version>4.0.1-SNAPSHOT</version>
+    <version>4.0.1</version>
     <packaging>jar</packaging>
 
     <name>Opensec UTIL</name>
